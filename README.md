@@ -17,4 +17,14 @@ This project aims at modeling the standard 27mm dia piezo electric cermaic disks
 ### Frequency Response
 
 ## Circuit Estimation
-
+![alt text](https://github.com/AK101111/LCR-Meter-Remote/blob/master/image.png "Frequency Response of the piezo disk")
+## Circuit Estimation
+```
+                   R1
+              |---^^^^---|			
+   R0    C0   |    C1    |   
+---^^^---||---|----||----|---
+              |          |
+              |--()()()--|
+                   L1
+```
